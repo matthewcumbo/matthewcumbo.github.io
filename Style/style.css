@@ -1,0 +1,87 @@
+
+  /* To affect a type of HTML element */
+  h1 {
+    font-family: DoF !important;
+}
+
+@font-face {
+    font-family: DoF;
+    src: url('../Fonts/DaughterOfFortune.ttf');
+}
+
+body {
+    background-color: lightgrey;
+}
+
+/* To target specific element by ID, we use #*/
+#header2{
+    color:green;
+}
+
+/* To create a class and make it reusable in HTML, we use . */
+.longClassName {
+    color:crimson;
+}
+
+.specialHeader{
+    background-color: lightblue;
+    color:white;
+    font-weight: bold;
+    width: 500px;
+    float:left;
+    /*border: 1px solid black;*/
+    /*border-color: black;
+    border-style: dashed;
+    border-width: 1px;*/
+    border-top:1px solid black;
+    /*margin:25px;*/
+    margin-top:25px;
+    margin-left:15px;
+    margin-right:15px;
+    /*padding:20px;*/
+    padding-top:30px;
+    padding-left:10px;
+    padding-right:10px;
+
+
+}
+
+.hidden
+{
+    display: none;
+}
+
+.blockLink {
+    text-decoration: none !important;
+    color:white;
+    background-color: lightblue;
+    width:80px;
+    line-height:50px;
+    display: inline-block;
+    text-align:center;
+    /*vertical-align: middle;*/
+    border:1px white solid;
+    border-radius:10px;
+}
+
+
+
+.bg-pink{
+    background-color: pink !important;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+  .blueHeading {
+      color:blue;
+  }
+
+  .redHeading {
+      color:red;
+  }
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="Style/bootstrap.css">
+    <link rel="stylesheet" href="Style/counter.css">
+</head>
+<body>    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h1 id="counter" class="text-center zero">0</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <button type="button" onclick='updateCounter(this);' class="btn btn-danger m-3">DECREASE</button>
+                <button type="button" onclick='updateCounter(this);' class="btn btn-secondary m-3">RESET</button>
+                <button type="button" onclick='updateCounter(this);' class="btn btn-success m-3">INCREASE</button>
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/counter.js"></script>
+</body>
+</html>

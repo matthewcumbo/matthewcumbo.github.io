@@ -1,0 +1,19 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 700px) {
+    .openSidebar{ display: block; }  /* show it on smaller screen */
+  }
+  @media screen and (min-width: 701px){
+    .openSidebar{ display: none; }   /* hide it on larger screens */
+  }

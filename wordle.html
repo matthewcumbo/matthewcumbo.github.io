@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="Style/bootstrap.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <div id="wordleDiv" class=""> 
+                    <div class="input-group mb-3">
+                        <input type="text" id="attempt1" class="form-control" placeholder="Attempt #1" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" id="button1" type="button" onclick="check('1');">Check!</button>
+                        </div>
+                      </div>
+                      <div class="input-group mb-3">
+                        <input type="text" id="attempt2" class="form-control" placeholder="Attempt #2" aria-label="Recipient's username" aria-describedby="basic-addon2" disabled>
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary"id="button2"  type="button" onclick="check('2');" disabled>Check!</button>
+                        </div>
+                      </div>
+                      <div class="input-group mb-3">
+                        <input type="text" id="attempt3" class="form-control" placeholder="Attempt #3" aria-label="Recipient's username" aria-describedby="basic-addon2" disabled>
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary"id="button3"  type="button" onclick="check('3');" disabled>Check!</button>
+                        </div>
+                      </div>
+                      <div class="input-group mb-3">
+                        <input type="text" id="attempt4" class="form-control" placeholder="Attempt #4" aria-label="Recipient's username" aria-describedby="basic-addon2" disabled>
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary"id="button4"  type="button" onclick="check('4');" disabled>Check!</button>
+                        </div>
+                      </div>
+                      <div class="input-group mb-3">
+                        <input type="text" id="attempt5" class="form-control" placeholder="Attempt #5" aria-label="Recipient's username" aria-describedby="basic-addon2" disabled>
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary"id="button5"  type="button" onclick="check('5');" disabled>Check!</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-6" id="resultsDiv">
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/wordle.js"></script>
+</body>
+</html>
